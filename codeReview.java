@@ -5,7 +5,6 @@ import java.io.*;
 
 public class PatternFile {
 	public static void main(String[] args) throws FileNotFoundException {
-		// new change2
 		String word = args[0];
 
 		Scanner input = new Scanner(new File(args[1]));
