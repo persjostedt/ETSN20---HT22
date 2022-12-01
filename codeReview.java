@@ -6,8 +6,8 @@ import java.io.*;
 public class PatternFile {
 	public static void main(String[] args) throws FileNotFoundException {
 		String word = args[0];
-
 		Scanner input = new Scanner(new File(args[1]));
+		// a new change here
 
 		// Let's loop through each line of the file
 		while (input.hasNext()) {
